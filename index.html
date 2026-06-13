@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Asset Trainer — Support</title>
+<meta name="description" content="Support and help for Asset Trainer, a local-only multi-asset portfolio training simulator for iPhone and iPad. FAQ, privacy, and contact." />
+<meta name="color-scheme" content="light dark" />
+
+<meta property="og:title" content="Asset Trainer — Support" />
+<meta property="og:description" content="Help, FAQ, privacy, and contact for the Asset Trainer iOS portfolio training simulator." />
+<meta property="og:type" content="website" />
+
+<link rel="icon" type="image/png" href="icon-256.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..560&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============================== Header ============================== -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Asset Trainer home">
+      <img class="brand-mark" src="icon-256.png" width="34" height="34" alt="Asset Trainer icon" />
+      <span class="name"><b>Asset</b> Trainer</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a class="navlink" href="#features" data-i18n="nav.features">Features</a>
+      <a class="navlink" href="#privacy" data-i18n="nav.privacy">Privacy</a>
+      <a class="navlink" href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a class="navlink" href="#contact" data-i18n="nav.contact">Contact</a>
+      <span class="lang">
+        <select class="lang-select" id="langSelect" aria-label="Language">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="zh-Hans">简体中文</option>
+          <option value="zh-Hant">繁體中文（台灣）</option>
+          <option value="zh-Hant-HK">繁體中文（香港）</option>
+          <option value="zh-Hant-MO">繁體中文（澳門）</option>
+        </select>
+      </span>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- ============================== Hero ============================== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="hero.eyebrow">iOS · iPhone &amp; iPad · Support</span></span>
+      <h1 data-i18n-html="hero.h1">Practice portfolio thinking. <em>Keep your data yours.</em></h1>
+      <p class="lede" data-i18n="hero.lede">Asset Trainer is a local-only multi-asset training simulator — stocks, ETFs, crypto, real estate, cash, and debt. This is the help &amp; support hub: answers, privacy details, and a direct line to the developer.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:goatintegral@gmail.com?subject=Asset%20Trainer%20Support">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span data-i18n="hero.contact">Contact support</span>
+        </a>
+        <a class="btn btn-ghost" href="#faq" data-i18n="hero.faq">Browse the FAQ</a>
+      </div>
+      <p class="hero-note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span data-i18n="hero.note">No account, no cloud, no analytics — your portfolio never leaves the device.</span>
+      </p>
+    </div>
+
+    <!-- decorative product mock -->
+    <div class="device" aria-hidden="true">
+      <div class="screen">
+        <div class="label" data-i18n="device.net">Net worth · simulated</div>
+        <div class="net">$148,920</div>
+        <div class="chg" data-i18n="device.chg">▲ 2.4%  ·  +$3,480 this month</div>
+        <div class="alloc">
+          <div class="row"><span class="nm" data-i18n="device.equities">Equities</span><span class="bar"><i style="width:46%;background:var(--c-blue)"></i></span><span class="pct">46%</span></div>
+          <div class="row"><span class="nm" data-i18n="device.property">Property</span><span class="bar"><i style="width:28%;animation-delay:.15s;background:var(--c-green)"></i></span><span class="pct">28%</span></div>
+          <div class="row"><span class="nm" data-i18n="device.crypto">Crypto</span><span class="bar"><i style="width:14%;animation-delay:.3s;background:var(--c-purple)"></i></span><span class="pct">14%</span></div>
+          <div class="row"><span class="nm" data-i18n="device.cash">Cash</span><span class="bar"><i style="width:12%;animation-delay:.45s;background:var(--c-orange)"></i></span><span class="pct">12%</span></div>
+        </div>
+        <div class="obs" data-i18n="device.obs">This portfolio is concentrated in equities. Observation only — not advice.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== Ticker ============================== -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span data-i18n="ticker.1">A training simulator — not a trading platform</span>
+    <span data-i18n="ticker.2">Not a price predictor</span>
+    <span data-i18n="ticker.3">Not a recommendation engine</span>
+    <span data-i18n="ticker.4">Not a real-money trading bot</span>
+    <span data-i18n="ticker.5">Not financial advice</span>
+    <span data-i18n="ticker.1">A training simulator — not a trading platform</span>
+    <span data-i18n="ticker.2">Not a price predictor</span>
+    <span data-i18n="ticker.3">Not a recommendation engine</span>
+    <span data-i18n="ticker.4">Not a real-money trading bot</span>
+    <span data-i18n="ticker.5">Not financial advice</span>
+  </div>
+</div>
+
+<!-- ============================== Features ============================== -->
+<section id="features">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="feat.kicker">What the app does</span>
+      <h2 data-i18n="feat.h2">A full portfolio, derived from one honest ledger.</h2>
+      <p data-i18n="feat.p">Every position, balance, and report is computed from the transactions you record — nothing is guessed for you.</p>
+    </div>
+
+    <div class="features">
+      <article class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16M4 12h16M4 19h10"/><circle cx="19" cy="19" r="2"/></svg></div>
+        <h3 data-i18n="feat.1.t">Transactions as truth</h3>
+        <p data-i18n="feat.1.p">Thirteen transaction types feed positions, cost basis, cash, net worth, allocation, and risk — all derived, never hand-set.</p>
+      </article>
+
+      <article class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg></div>
+        <h3 data-i18n="feat.2.t">Real estate &amp; debt</h3>
+        <p data-i18n="feat.2.p">Model properties, rent, expenses, and mortgages with amortization schedules, payoff planning, and equity tracking.</p>
+      </article>
+
+      <article class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 4 8 9 10 5-2 9-5 9-10V6z"/><path d="M12 8v4M12 16h.01"/></svg></div>
+        <h3 data-i18n="feat.3.t">Risk as observation</h3>
+        <p data-i18n="feat.3.p">Concentration, leverage, liquidity, and low-cash warnings are phrased as observations about your data — never as advice.</p>
+      </article>
+
+      <article class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5M14 3l5 5v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><path d="M9 13l2 2 3-4"/></svg></div>
+        <h3 data-i18n="feat.4.t">Reports &amp; journal</h3>
+        <p data-i18n="feat.4.p">Monthly, quarterly, semi-annual, and annual reports generated on device — exportable as TXT or XLSX — plus a decision journal.</p>
+      </article>
+
+      <article class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12a7 7 0 0 1 12-5M19 12a7 7 0 0 1-12 5"/><path d="M17 3v4h-4M7 21v-4h4"/></svg></div>
+        <h3 data-i18n="feat.5.t">Resilient market data</h3>
+        <p data-i18n="feat.5.p">Read-only prices with automatic failover — Yahoo, Tencent, Eastmoney, Sina, Coinbase, OKX, optional Alpaca — working even on mainland-China networks.</p>
+      </article>
+
+      <article class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div>
+        <h3 data-i18n="feat.6.t">Six languages</h3>
+        <p data-i18n="feat.6.p">English, Español, 简体中文, and 繁體中文 for 台灣 · 香港 · 澳門 — switchable in the app.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== Privacy band ============================== -->
+<section id="privacy" class="privacy">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="priv.kicker">Private by design</span>
+      <h2 data-i18n="priv.h2">The developer collects nothing.</h2>
+      <p data-i18n="priv.p">There is no account system, no server, and no analytics. Everything you enter lives in a local database on your device.</p>
+    </div>
+    <div class="priv-grid">
+      <div class="priv-card reveal">
+        <div class="big">0</div>
+        <h4 data-i18n="priv.c1.t">Bytes of portfolio data sent</h4>
+        <p data-i18n="priv.c1.p">Your transactions, balances, and notes never leave the device.</p>
+      </div>
+      <div class="priv-card reveal">
+        <div class="big">↪</div>
+        <h4 data-i18n="priv.c2.t">Only ticker symbols travel</h4>
+        <p data-i18n="priv.c2.p">To fetch prices, the app sends just symbols like “AAPL” or “BTC” to market-data providers.</p>
+      </div>
+      <div class="priv-card reveal">
+        <div class="big">∅</div>
+        <h4 data-i18n="priv.c3.t">No ads or trackers</h4>
+        <p data-i18n="priv.c3.p">No advertising identifier, no third-party analytics SDKs, no fingerprinting.</p>
+      </div>
+      <div class="priv-card reveal">
+        <div class="big">⌫</div>
+        <h4 data-i18n="priv.c4.t">You hold the off switch</h4>
+        <p data-i18n="priv.c4.p">Clear all data or delete the app to remove everything — there is no copy to ask anyone to delete.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FAQ ============================== -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-left:auto;margin-right:auto;text-align:center;">
+      <span class="kicker" data-i18n="faq.kicker">Help &amp; answers</span>
+      <h2 data-i18n="faq.h2">Frequently asked questions</h2>
+    </div>
+
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q1">Where is my data stored, and is it backed up to a cloud?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a1">Everything you enter is stored in a local SQLite database inside the app on your device. There is no cloud sync and no developer server. Backups exist only if you create them yourself — through your own device backups or by using the in-app export to a zip/CSV file. You are in full control of those copies.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q2">Can Asset Trainer place real trades or connect to my brokerage?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a2">No. The app can reach third-party endpoints only to retrieve read-only market prices. It cannot place, route, or execute real orders, and it never connects to trade. It is a training simulator, not a brokerage.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q3">Is anything in the app financial advice?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a3">No. Risk warnings, reports, scores, charts, trade previews, and journal prompts are all descriptive observations about the data you entered — never recommendations to buy, sell, or hold. Always do your own research and consider a licensed professional before any real-world decision.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q4">Which market-data sources does it use, and what gets sent?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a4">Prices come from public sources with an ordered failover chain — Yahoo Finance, Tencent, Eastmoney, and Sina for stocks; Coinbase, OKX, and Sina for crypto — plus an optional Alpaca key for real-time US quotes. Only the ticker symbols of the assets you track are ever transmitted. The chain is designed to keep working even where some sources are unreachable, including mainland-China networks.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q5">How do I export or back up my data?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a5">Open <strong>More ▸ Import/Export</strong>. You can create a full-data zip backup, export CSV, and export reports as TXT or XLSX. The database is also visible to the Files app. Keep these backups somewhere safe — since the developer holds no copy, they are your only recovery path.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q6">How do I delete my data?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a6">You can delete individual assets and their history under <strong>Settings ▸ Data Management</strong>, erase everything with “Clear All Data…”, or simply delete the app, which removes the local database entirely. Because nothing is stored off-device, there is nothing left elsewhere to remove.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q7">What asset and transaction types are supported?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a7">Asset types: stocks, ETFs, crypto, real estate, cash, debt, and custom. Transactions include deposits and withdrawals, buys and sells, property events (add, revalue, rent, expense, mortgage, sale), debt events (add, pay), and manual adjustments — thirteen types in total.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q8">What languages does the app support?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a8">English, Español, 简体中文 (Simplified Chinese), and 繁體中文 (Traditional Chinese) for Taiwan, Hong Kong, and Macau. Report documents stay in English by design; the live interface is fully localized.</div></div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q"><span data-i18n="faq.q9">I found a bug or have a feature request. What should I do?</span><span class="plus"></span></summary>
+        <div class="faq-a"><div class="inner" data-i18n-html="faq.a9">Email <a href="mailto:goatintegral@gmail.com?subject=Asset%20Trainer%20bug%20report">goatintegral@gmail.com</a> with your device model, iOS version, the app version, and clear steps to reproduce. Screenshots help. Please don’t include any sensitive personal information.</div></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== Contact ============================== -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <div>
+        <span class="kicker" data-i18n="contact.kicker">Get in touch</span>
+        <h2 data-i18n="contact.h2">Still need a hand?</h2>
+        <p data-i18n="contact.p1">Support is handled directly by the developer. Email is the fastest way to reach a human — most messages get a reply within a few days.</p>
+        <p data-i18n="contact.p2">To help us help you quickly, please include:</p>
+        <ul class="tips">
+          <li data-i18n="contact.t1">Your device (e.g. iPhone 15 Pro) and iOS version</li>
+          <li data-i18n="contact.t2">The Asset Trainer version number</li>
+          <li data-i18n="contact.t3">What you expected, and what happened instead</li>
+          <li data-i18n="contact.t4">Steps to reproduce, and a screenshot if relevant</li>
+        </ul>
+      </div>
+      <div class="mailbox">
+        <div class="label" data-i18n="contact.maillabel">Support email</div>
+        <div class="email">goatintegral@gmail.com</div>
+        <a class="btn btn-primary" href="mailto:goatintegral@gmail.com?subject=Asset%20Trainer%20Support">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span data-i18n="contact.btn">Write to support</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== Footer ============================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img class="brand-mark" src="icon-256.png" width="34" height="34" alt="Asset Trainer icon" />
+          <span class="name"><b>Asset</b> Trainer</span>
+        </a>
+        <p data-i18n="footer.tagline">A local-only multi-asset portfolio training simulator for iPhone and iPad. Not a brokerage, not financial advice, and it cannot place real orders.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5 data-i18n="footer.support">Support</h5>
+          <a href="#faq" data-i18n="footer.faq">FAQ</a>
+          <a href="#features" data-i18n="footer.features">Features</a>
+          <a href="mailto:goatintegral@gmail.com?subject=Asset%20Trainer%20Support" data-i18n="footer.email">Email support</a>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="footer.legal">Legal</h5>
+          <a class="js-legal-privacy" href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+          <a class="js-legal-terms" href="terms.html" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer.copyright">© 2026 Asset Trainer. All data stays on your device.</span>
+      <span class="footer-langs">EN · ES · 简体 · 繁體（台 · 港 · 澳）</span>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

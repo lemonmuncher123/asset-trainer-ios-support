@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK" dir="ltr" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>私隱政策 — Asset Trainer</title>
+<meta name="description" content="私隱政策 — Asset Trainer, a local-only iOS portfolio training simulator." />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" type="image/png" href="icon-256.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..560&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Asset Trainer">
+      <img class="brand-mark" src="icon-256.png" width="34" height="34" alt="Asset Trainer icon" />
+      <span class="name"><b>Asset</b> Trainer</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a class="navlink" href="index.html#faq">常見問題</a>
+      <a class="navlink" href="terms.zh-Hant-HK.html">使用條款</a>
+      <a class="navlink" href="index.html#contact">聯絡</a>
+      <span class="lang">
+        <select class="lang-select" aria-label="Language" onchange="if(this.value){try{localStorage.setItem('at-lang',this.options[this.selectedIndex].dataset.loc||'')}catch(e){};location.href=this.value}">
+        <option value="privacy.html" data-loc="en">English</option>
+        <option value="privacy.es.html" data-loc="es">Español</option>
+        <option value="privacy.zh-Hans.html" data-loc="zh-Hans">简体中文</option>
+        <option value="privacy.zh-Hant.html" data-loc="zh-Hant">繁體中文（台灣）</option>
+        <option value="privacy.zh-Hant-HK.html" data-loc="zh-Hant-HK" selected>繁體中文（香港）</option>
+        <option value="privacy.zh-Hant-MO.html" data-loc="zh-Hant-MO">繁體中文（澳門）</option>
+        </select>
+      </span>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+    <a class="legal-back" href="index.html">← 返回支援</a>
+    <h1>私隱政策</h1>
+    <div class="updated">最後更新：2026年6月12日</div>
+
+    <div class="legal-note"><strong>簡而言之：</strong>您的組合數據儲存在您的設備上，開發者不收集任何數據。</div>
+
+    <div class="doc">
+      <h2><span class="num">1.</span> 概述</h2>
+      <p>Asset Trainer 是一款僅在本地運行的投資組合訓練模擬器。本政策説明應用程式處理哪些數據、哪些數據（如有）會離開您的設備，以及您可以做出的選擇。簡而言之：您的組合數據儲存在您的設備上，開發者不收集任何數據。</p>
+
+      <h2><span class="num">2.</span> 開發者收集的內容：無</h2>
+      <p>開發者不收集、不接收、不存儲、不出售、也不共享任何個人數據。本應用程式沒有帳戶系統、沒有云服務、沒有由開發者運營的服務器，也沒有任何分析組件。您在應用程式中的任何操作都不會上報給開發者。</p>
+
+      <h2><span class="num">3.</span> 您的數據僅儲存在您的設備上</h2>
+      <p>您錄入的一切 — 交易、資產、房產、債務、日誌與設定 — 都儲存在本設備的本地數據庫中，以及您自己創建的備份或匯出文件中（例如由您掌控的設備備份，或您匯出並分享的文件）。開發者無法訪問其中任何內容。</p>
+
+      <h2><span class="num">4.</span> 發送給行情數據提供方的代號</h2>
+      <p>為獲取市場價格，應用程式僅將您所跟蹤資產的代號（例如「AAPL」或「BTC」）發送給第三方行情數據提供方：Yahoo Finance、騰訊、東方財富、新浪、Coinbase、OKX，以及（僅在您配置後）Alpaca。您的交易、數量、餘額、備註與身份資訊絕不會被髮送。與任何互聯網請求一樣，您所連接的提供方在技術上會獲得您設備的 IP 地址，並可能依據其自身的私隱政策記錄請求，開發者無法控制這些政策。價格請求由您的設備直接發往提供方，不經過開發者。</p>
+
+      <h2><span class="num">5.</span> 可選的第三方 API 密鑰</h2>
+      <p>如果您選擇使用 Alpaca 作為報價來源，您輸入的 API 密鑰僅儲存在本設備上，並且只會發送給 Alpaca 用於驗證價格請求。您與 Alpaca 的帳戶及關係受 Alpaca 自身條款與私隱政策的約束。</p>
+
+      <h2><span class="num">6.</span> 通知</h2>
+      <p>經您許可，應用程式會安排本地通知 — 例如新的週期報告生成時。通知完全在本設備上生成；不涉及任何推送服務或服務器。您可以隨時在 iOS 設定中撤銷該權限。</p>
+
+      <h2><span class="num">7.</span> 無跟蹤、無分析、無廣告</h2>
+      <p>本應用程式不含廣告、不含跟蹤器、不含第三方分析 SDK，不使用廣告標識符，也不對您的設備進行指紋識別。</p>
+
+      <h2><span class="num">8.</span> 數據保留與刪除</h2>
+      <p>您的數據會一直保留在本設備上，直到您刪除為止。您可以刪除單個資產及其歷史（設定 ▸ 數據管理）、清除全部數據（「清除所有數據…」），或直接刪除應用程式 — 這會移除本地數據庫。由於開發者不持有您數據的任何副本，開發者也沒有可刪除或可交出的內容。停止市場數據同步或刪除應用程式，即視為撤回您對上述數據流的同意。</p>
+
+      <h2><span class="num">9.</span> 兒童私隱</h2>
+      <p>本應用程式並非面向兒童，且如上所述，不收集任何人的數據 — 包括兒童。</p>
+
+      <h2><span class="num">10.</span> 本政策的變更</h2>
+      <p>如本政策發生重大變更，更新後的版本將隨應用程式更新一同發佈，變更內容可在本文檔中查看。更新後繼續使用即表示接受修訂後的政策。</p>
+
+      <h2><span class="num">11.</span> 聯繫方式</h2>
+      <p>有關本政策的問題，可發送至開發者電郵 <a href="mailto:goatintegral@gmail.com?subject=Asset%20Trainer%20Privacy">goatintegral@gmail.com</a>。</p>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom" style="border:0;margin:0;padding:0;">
+      <span>© <span id="year">2026</span> Asset Trainer. 所有數據都儲存在您的設備上。</span>
+      <span class="footer-langs"><a href="terms.zh-Hant-HK.html" style="color:inherit">使用條款</a> · <a href="index.html#contact" style="color:inherit">支援</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

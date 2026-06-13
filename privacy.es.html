@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Política de privacidad — Asset Trainer</title>
+<meta name="description" content="Política de privacidad — Asset Trainer, a local-only iOS portfolio training simulator." />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" type="image/png" href="icon-256.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..560&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Asset Trainer">
+      <img class="brand-mark" src="icon-256.png" width="34" height="34" alt="Asset Trainer icon" />
+      <span class="name"><b>Asset</b> Trainer</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a class="navlink" href="index.html#faq">Preguntas</a>
+      <a class="navlink" href="terms.es.html">Términos</a>
+      <a class="navlink" href="index.html#contact">Contacto</a>
+      <span class="lang">
+        <select class="lang-select" aria-label="Language" onchange="if(this.value){try{localStorage.setItem('at-lang',this.options[this.selectedIndex].dataset.loc||'')}catch(e){};location.href=this.value}">
+        <option value="privacy.html" data-loc="en">English</option>
+        <option value="privacy.es.html" data-loc="es" selected>Español</option>
+        <option value="privacy.zh-Hans.html" data-loc="zh-Hans">简体中文</option>
+        <option value="privacy.zh-Hant.html" data-loc="zh-Hant">繁體中文（台灣）</option>
+        <option value="privacy.zh-Hant-HK.html" data-loc="zh-Hant-HK">繁體中文（香港）</option>
+        <option value="privacy.zh-Hant-MO.html" data-loc="zh-Hant-MO">繁體中文（澳門）</option>
+        </select>
+      </span>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+    <a class="legal-back" href="index.html">← Volver al soporte</a>
+    <h1>Política de privacidad</h1>
+    <div class="updated">Última actualización: 12 de junio de 2026</div>
+
+    <div class="legal-note"><strong>En resumen:</strong> los datos de su cartera permanecen en su dispositivo y el desarrollador no recopila nada.</div>
+
+    <div class="doc">
+      <h2><span class="num">1.</span> Resumen</h2>
+      <p>Asset Trainer es un simulador de entrenamiento de carteras que funciona solo localmente. Esta política explica qué datos maneja la app, qué sale de su dispositivo — si es que algo sale — y las opciones que usted tiene. En resumen: los datos de su cartera permanecen en su dispositivo y el desarrollador no recopila nada.</p>
+
+      <h2><span class="num">2.</span> Qué recopila el desarrollador: nada</h2>
+      <p>El desarrollador no recopila, recibe, almacena, vende ni comparte ningún dato personal. La app no tiene sistema de cuentas, ni servicio en la nube, ni servidor operado por el desarrollador, ni analítica. Nada de lo que usted hace en la app se comunica al desarrollador.</p>
+
+      <h2><span class="num">3.</span> Sus datos permanecen en su dispositivo</h2>
+      <p>Todo lo que usted introduce — transacciones, activos, propiedades, deudas, entradas del diario y ajustes — se guarda en una base de datos local en este dispositivo y en las copias de seguridad o exportaciones que usted mismo cree (por ejemplo, copias de seguridad del dispositivo bajo su control o archivos que exporte y comparta). El desarrollador no tiene acceso a nada de ello.</p>
+
+      <h2><span class="num">4.</span> Símbolos enviados a proveedores de datos de mercado</h2>
+      <p>Para obtener precios de mercado, la app envía únicamente los símbolos de los activos que usted sigue (por ejemplo &quot;AAPL&quot; o &quot;BTC&quot;) a proveedores de datos de terceros: Yahoo Finance, Tencent, Eastmoney, Sina, Coinbase, OKX y — solo si usted lo configura — Alpaca. Sus transacciones, cantidades, saldos, notas e identidad nunca se envían. Como en cualquier solicitud por internet, el proveedor al que se conecta recibe técnicamente la dirección IP de su dispositivo y puede registrar las solicitudes conforme a su propia política de privacidad, que el desarrollador no controla. Las solicitudes de precios van directamente de su dispositivo al proveedor; nada pasa por el desarrollador.</p>
+
+      <h2><span class="num">5.</span> Claves API de terceros opcionales</h2>
+      <p>Si decide usar Alpaca como fuente de cotizaciones, la clave API que introduzca se guarda en este dispositivo y se envía únicamente a Alpaca para autenticar las solicitudes de precios. Su cuenta y su relación con Alpaca se rigen por los términos y la política de privacidad propios de Alpaca.</p>
+
+      <h2><span class="num">6.</span> Notificaciones</h2>
+      <p>Con su permiso, la app programa notificaciones locales — por ejemplo cuando un nuevo informe periódico está listo. Se generan íntegramente en este dispositivo; no interviene ningún servicio push ni servidor. Puede revocar el permiso en cualquier momento en los Ajustes de iOS.</p>
+
+      <h2><span class="num">7.</span> Sin rastreo, analítica ni publicidad</h2>
+      <p>La app no contiene publicidad, rastreadores ni SDK de analítica de terceros. No usa el identificador de publicidad ni genera huellas digitales de su dispositivo.</p>
+
+      <h2><span class="num">8.</span> Conservación y eliminación de datos</h2>
+      <p>Sus datos permanecen en este dispositivo hasta que usted los elimine. Puede borrar activos individuales y su historial (Ajustes ▸ Gestión de datos), borrarlo todo (&quot;Borrar todos los datos…&quot;) o simplemente eliminar la app, lo que elimina la base de datos local. Como el desarrollador no posee copia alguna de sus datos, no hay nada que el desarrollador pueda borrar o entregar. Usted retira su consentimiento a los flujos de datos descritos arriba desactivando la sincronización de datos de mercado o eliminando la app.</p>
+
+      <h2><span class="num">9.</span> Privacidad de los menores</h2>
+      <p>La app no está dirigida a menores y, como se describe arriba, no recopila datos de nadie — incluidos los menores.</p>
+
+      <h2><span class="num">10.</span> Cambios en esta política</h2>
+      <p>Si esta política cambia de forma sustancial, la versión actualizada se distribuirá con una actualización de la app y el cambio será visible en este documento. El uso continuado tras una actualización constituye la aceptación de la política revisada.</p>
+
+      <h2><span class="num">11.</span> Contacto</h2>
+      <p>Las preguntas sobre esta política pueden enviarse al desarrollador a <a href="mailto:goatintegral@gmail.com?subject=Asset%20Trainer%20Privacy">goatintegral@gmail.com</a>.</p>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom" style="border:0;margin:0;padding:0;">
+      <span>© <span id="year">2026</span> Asset Trainer. Todos los datos permanecen en su dispositivo.</span>
+      <span class="footer-langs"><a href="terms.es.html" style="color:inherit">Términos</a> · <a href="index.html#contact" style="color:inherit">Soporte</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

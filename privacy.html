@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Asset Trainer</title>
+<meta name="description" content="Privacy Policy — Asset Trainer, a local-only iOS portfolio training simulator." />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" type="image/png" href="icon-256.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..560&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Asset Trainer">
+      <img class="brand-mark" src="icon-256.png" width="34" height="34" alt="Asset Trainer icon" />
+      <span class="name"><b>Asset</b> Trainer</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a class="navlink" href="index.html#faq">FAQ</a>
+      <a class="navlink" href="terms.html">Terms</a>
+      <a class="navlink" href="index.html#contact">Contact</a>
+      <span class="lang">
+        <select class="lang-select" aria-label="Language" onchange="if(this.value){try{localStorage.setItem('at-lang',this.options[this.selectedIndex].dataset.loc||'')}catch(e){};location.href=this.value}">
+        <option value="privacy.html" data-loc="en" selected>English</option>
+        <option value="privacy.es.html" data-loc="es">Español</option>
+        <option value="privacy.zh-Hans.html" data-loc="zh-Hans">简体中文</option>
+        <option value="privacy.zh-Hant.html" data-loc="zh-Hant">繁體中文（台灣）</option>
+        <option value="privacy.zh-Hant-HK.html" data-loc="zh-Hant-HK">繁體中文（香港）</option>
+        <option value="privacy.zh-Hant-MO.html" data-loc="zh-Hant-MO">繁體中文（澳門）</option>
+        </select>
+      </span>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+    <a class="legal-back" href="index.html">← Back to support</a>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: June 12, 2026</div>
+
+    <div class="legal-note"><strong>The short version:</strong> your portfolio data stays on your device, and the developer collects nothing.</div>
+
+    <div class="doc">
+      <h2><span class="num">1.</span> Overview</h2>
+      <p>Asset Trainer is a local-only portfolio training simulator. This policy explains what data the app handles, what — if anything — leaves your device, and the choices you have. The short version: your portfolio data stays on your device, and the developer collects nothing.</p>
+
+      <h2><span class="num">2.</span> What the Developer Collects: Nothing</h2>
+      <p>The developer does not collect, receive, store, sell, or share any personal data. The app has no account system, no cloud service, no server operated by the developer, and no analytics. Nothing you do in the app is reported to the developer.</p>
+
+      <h2><span class="num">3.</span> Your Data Stays on Your Device</h2>
+      <p>Everything you enter — transactions, assets, properties, debts, journal entries, and settings — is stored in a local database on this device, and in any backups or exports you create yourself (for example device backups you control, or files you export and share). The developer has no access to any of it.</p>
+
+      <h2><span class="num">4.</span> Ticker Symbols Sent to Market-Data Providers</h2>
+      <p>To fetch market prices, the app sends only the ticker symbols of the assets you track (for example &quot;AAPL&quot; or &quot;BTC&quot;) to third-party market-data providers: Yahoo Finance, Tencent, Eastmoney, Sina, Coinbase, OKX, and — only if you configure it — Alpaca. Your transactions, quantities, balances, notes, and identity are never sent. As with any internet request, a provider you connect to technically receives your device&#x27;s IP address and may log requests under its own privacy policy, which the developer does not control. Price requests go directly from your device to the provider; nothing passes through the developer.</p>
+
+      <h2><span class="num">5.</span> Optional Third-Party API Keys</h2>
+      <p>If you choose to use Alpaca as a quote source, the API key you enter is stored on this device and sent only to Alpaca to authenticate price requests. Your account and relationship with Alpaca are governed by Alpaca&#x27;s own terms and privacy policy.</p>
+
+      <h2><span class="num">6.</span> Notifications</h2>
+      <p>With your permission, the app schedules local notifications — for example when a new periodic report is ready. They are generated entirely on this device; no push service or server is involved. You can revoke the permission at any time in iOS Settings.</p>
+
+      <h2><span class="num">7.</span> No Tracking, Analytics, or Advertising</h2>
+      <p>The app contains no advertising, no trackers, and no third-party analytics SDKs. It does not use the advertising identifier and does not fingerprint your device.</p>
+
+      <h2><span class="num">8.</span> Data Retention and Deletion</h2>
+      <p>Your data remains on this device until you delete it. You can delete individual assets and their history (Settings ▸ Data Management), erase everything (&quot;Clear All Data…&quot;), or simply delete the app, which removes the local database. Because the developer holds no copy of your data, there is nothing for the developer to delete or hand over. You withdraw consent to the data flows described above by turning off market-data syncing or deleting the app.</p>
+
+      <h2><span class="num">9.</span> Children&#x27;s Privacy</h2>
+      <p>The app is not directed at children and, as described above, collects no data from anyone — including children.</p>
+
+      <h2><span class="num">10.</span> Changes to This Policy</h2>
+      <p>If this policy changes materially, the updated version ships with an app update and the change is visible in this document. Continued use after an update constitutes acceptance of the revised policy.</p>
+
+      <h2><span class="num">11.</span> Contact</h2>
+      <p>Questions about this policy can be sent to the developer at <a href="mailto:goatintegral@gmail.com?subject=Asset%20Trainer%20Privacy">goatintegral@gmail.com</a>.</p>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom" style="border:0;margin:0;padding:0;">
+      <span>© <span id="year">2026</span> Asset Trainer. All data stays on your device.</span>
+      <span class="footer-langs"><a href="terms.html" style="color:inherit">Terms</a> · <a href="index.html#contact" style="color:inherit">Support</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
